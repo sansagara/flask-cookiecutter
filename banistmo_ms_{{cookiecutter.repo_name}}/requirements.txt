@@ -1,0 +1,42 @@
+Flask
+
+
+
+# Flask Extensions
+
+
+Flask-Assets
+
+Flask-Cache
+
+Flask-Debugtoolbar
+
+Flask-Login
+
+Flask-SQLAlchemy
+
+Flask-Script
+
+Flask-WTF
+
+
+
+# Other
+
+itsdangerous
+
+cssmin
+
+jsmin
+
+
+
+# Testing
+
+pytest
+
+pytest-cov
+
+mccabe
+
+flake8
