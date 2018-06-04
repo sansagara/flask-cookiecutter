@@ -5,7 +5,7 @@ import os
 from flask_script import Manager, Server
 from flask_script.commands import ShowUrls, Clean
 from {{cookiecutter.repo_name}} import create_app
-from {{cookiecutter.repo_name}}.models import db, User
+from {{cookiecutter.repo_name}}.models.models import db
 
 # default to dev config because no one should use this in
 # production anyway

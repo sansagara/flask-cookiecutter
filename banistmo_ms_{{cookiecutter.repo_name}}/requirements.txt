@@ -1,5 +1,7 @@
+sqlalchemy
 Flask
-
+bson
+pyodbc
 
 
 # Flask Extensions

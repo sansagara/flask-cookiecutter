@@ -10,7 +10,8 @@ from webassets.loaders import PythonLoader as PythonAssetsLoader
 
 from {{cookiecutter.repo_name}}.controllers.main import main
 from {{cookiecutter.repo_name}} import assets
-from {{cookiecutter.repo_name}}.models import db
+from .models.models import db
+
 
 from {{cookiecutter.repo_name}}.extensions import (
     # cache,

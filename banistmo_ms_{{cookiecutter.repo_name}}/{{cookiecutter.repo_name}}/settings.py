@@ -18,11 +18,10 @@ class DevConfig(Config):
     DEBUG = True
     DEBUG_TB_INTERCEPT_REDIRECTS = False
 
-    SQLALCHEMY_DATABASE_URI = 'sqlite:///../database.db'
+    SQLALCHEMY_DATABASE_URI = 'mssql+pyodbc://canalitica:*ArL2g*1sd@BANCOSEGURO'
 
     CACHE_TYPE = 'null'
     ASSETS_DEBUG = True
-
 
 class TestConfig(Config):
     ENV = 'test'
